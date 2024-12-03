@@ -2,7 +2,7 @@ import React from 'react'
 
 const WhatYoGet = () => {
   return (
-    <div>WhatYoGet</div>
+    <div className='w-full h-lvh bg-wygBackgroundColor'>WhatYoGet</div>
   )
 }
 

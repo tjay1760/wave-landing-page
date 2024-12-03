@@ -2,7 +2,7 @@ import React from 'react'
 
 const Tools = () => {
   return (
-    <div>Tools</div>
+    <div className='w-full h-80 bg-toolsBackgroundColor1'>Tools</div>
   )
 }
 

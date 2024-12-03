@@ -7,6 +7,7 @@ import Testimonials from "./Testimonials";
 import GetStarted from "./GetStarted";
 import WhatYouGet from "./WhatYoGet";
 import Tools from "./Tools";
-import FloatingDemo from "./FloatingDemo"
+import FloatingDemo from "./FloatingDemo";
+import ToolsScroll from "./ToolsScroll";
 
-export {FAQs,Footer,FloatingContact,FloatingDemo,Navbar,Hero,Testimonials,GetStarted,WhatYouGet,Tools}
+export {FAQs,Footer,FloatingContact,FloatingDemo,Navbar,Hero,Testimonials,GetStarted,WhatYouGet,Tools,ToolsScroll}
