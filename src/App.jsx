@@ -1,23 +1,15 @@
 import './App.css'
 import './index.css'
 import React from 'react'
-import { FAQs,Footer,FloatingContact,Navbar,Hero,Testimonials,GetStarted,WhatYouGet,Tools, FloatingDemo,ToolsScroll}from './components'
+import Homepage from './components/Home/Homepage'
+import Navbar from './components/Navigation/Navbar'
 function App() {
 
   return (
     <>
       <div className='w-full'>
-<Navbar/>
-<Hero/>
-<FloatingDemo/>
-<WhatYouGet/>
-<Tools/>
-<ToolsScroll/>
-<Testimonials/>
-<GetStarted/>
-<FAQs/>
-<FloatingContact/>
-<Footer/>
+        <Navbar/>
+<Homepage/>
       </div>
         
     </>
