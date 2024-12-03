@@ -1,12 +1,23 @@
 import './App.css'
 import './index.css'
 import React from 'react'
+import { FAQs,Footer,FloatingContact,Navbar,Hero,Testimonials,GetStarted,WhatYouGet,Tools, FloatingDemo,ToolsScroll}from './components'
 function App() {
 
   return (
     <>
-      <div>
-<h1 className='text-blue-400 font-black border-spacing-8'>Tuli Landing</h1>
+      <div className='w-full'>
+<Navbar/>
+<Hero/>
+<FloatingDemo/>
+<WhatYouGet/>
+<Tools/>
+<ToolsScroll/>
+<Testimonials/>
+<GetStarted/>
+<FAQs/>
+<FloatingContact/>
+<Footer/>
       </div>
         
     </>
