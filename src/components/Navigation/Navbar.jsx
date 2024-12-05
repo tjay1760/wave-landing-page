@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router";
 import { IoIosArrowDown,IoIosArrowUp } from "react-icons/io";
+import Logo from '../../assets/Tuli_logo.png'; // Adjust the path as needed
+
 
 
 const Navbar = () => {
@@ -8,9 +10,9 @@ const Navbar = () => {
   const [showResources, setShowResources] = useState(false);
 
   return (
-    <div className="bg-heroBackgroundColor h-24 w-full flex items-center gap-[550px] px-8 fixed">
+    <div className="bg-heroBackgroundColor h-24 w-full flex items-center gap-[400px] px-8 fixed">
       <Link to="/">
-        <h1 className="text-xl font-bold">Tuli</h1>
+      <img src={Logo} alt="Logo" className="h-20"/>
       </Link>
       <nav className="flex gap-6">
         {/* Features Dropdown */}
