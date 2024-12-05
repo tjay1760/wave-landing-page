@@ -18,6 +18,10 @@ export default {
         toolsBackgroundColor7:"rgb(241,188,166)",
         toolsBackgroundColor8:"rgb(244,218,198)",
       },
+      spacing: {
+        '128': '40rem', 
+        '256': '64rem', 
+      },
     },
   },
   plugins: [],
