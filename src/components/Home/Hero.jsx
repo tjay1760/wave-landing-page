@@ -12,7 +12,7 @@ const Hero = () => {
     setEmail(e.target.value)
   }
   return (
-    <div className="h-lvh w-full bg-heroBackgroundColor relative top-24 flex align-top gap-40">
+    <div className="h-[48rem] w-full bg-heroBackgroundColor relative top-24 flex align-top gap-40">
       <div className="text-black">
         <div className="ratings flex items-center gap-4 ml-8 pt-10">
           <div className="flex">
