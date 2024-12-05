@@ -1,12 +1,14 @@
 import React, { useState } from "react";
 import { Link } from "react-router";
+import { IoIosArrowDown,IoIosArrowUp } from "react-icons/io";
+
 
 const Navbar = () => {
   const [showFeatures, setShowFeatures] = useState(false);
   const [showResources, setShowResources] = useState(false);
 
   return (
-    <div className="bg-heroBackgroundColor h-24 w-full flex items-center gap-[565px] px-8 fixed">
+    <div className="bg-heroBackgroundColor h-24 w-full flex items-center gap-[550px] px-8 fixed">
       <Link to="/">
         <h1 className="text-xl font-bold">Tuli</h1>
       </Link>
@@ -18,8 +20,8 @@ const Navbar = () => {
             setShowResources(false)}}
           //   onMouseLeave={() => setShowFeatures(false)}
         >
-          <button className="text-blue-900 font-extrabold hover:text-blue-500">
-            Features
+          <button className="text-blue-900 font-extrabold hover:text-blue-500 flex items-center gap-2">
+            Features {showFeatures?<IoIosArrowDown/>:<IoIosArrowUp/>}
           </button>
           {showFeatures && (
             <div
@@ -114,8 +116,9 @@ const Navbar = () => {
             setShowFeatures(false)}
           }
         >
-          <button className="text-blue-900 font-extrabold hover:text-blue-500">
+          <button className="text-blue-900 font-extrabold hover:text-blue-500 flex items-center gap-2">
             Resources
+{showResources?<IoIosArrowDown/>:<IoIosArrowUp/>}
           </button>
           {showResources && (
             <div
