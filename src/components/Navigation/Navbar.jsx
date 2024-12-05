@@ -10,7 +10,7 @@ const Navbar = () => {
   const [showResources, setShowResources] = useState(false);
 
   return (
-    <div className="bg-heroBackgroundColor h-24 w-full flex items-center gap-[400px] px-8 fixed">
+    <div className="bg-heroBackgroundColor h-24 w-full flex items-center gap-[400px] px-8 fixed z-10">
       <Link to="/">
       <img src={Logo} alt="Logo" className="h-20"/>
       </Link>
