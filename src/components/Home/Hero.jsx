@@ -16,16 +16,16 @@ const Hero = () => {
       <div className="text-black">
         <div className="ratings flex items-center gap-4 ml-8 pt-10">
           <div className="flex">
-            <IoIosStar />
-            <IoIosStar />
-            <IoIosStar />
-            <IoIosStar />
-            <IoIosStarHalf />
+            <IoIosStar className="text-yellow-500 text-2xl"/>
+            <IoIosStar className="text-yellow-500 text-2xl"/>
+            <IoIosStar className="text-yellow-500 text-2xl"/>
+            <IoIosStar className="text-yellow-500 text-2xl"/>
+            <IoIosStarHalf className="text-yellow-500 text-2xl"/>
           </div>
-          <div className="w-px h-4 bg-black"></div>
-          <span className="font-semibold text-lg">Excellent</span>
+          <div className="w-px h-7 bg-black"></div>
+          <span className="font-semibold text-2xl">Excellent</span>
         </div>
-        <span className="ml-8 pt-4">
+        <span className="ml-8 pt-8 text-lg">
           <strong>4.9</strong> out of 5 Stars
         </span>
 
