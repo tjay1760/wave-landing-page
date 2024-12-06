@@ -9,14 +9,16 @@ import AdvisoryImg from "../../assets/Dashboard_advisory.png";
 const toolsData = [
   {
     img: InvoicingImg,
-    header: "Stop chasing clients for money",
+    header:"Invoicing",
+    sub: "Stop chasing clients for money",
     desc: "Reduce unpaid invoices, keep tabs on your income, and get paid faster.",
     link: "Learn more about our invoicing feature",
     route:"/invoicing"
   },
   {
     img: PaymentImg,
-    header: "Get paid faster",
+    header:"Payments",
+    sub: "Get paid faster",
     desc: "Convenience is everything. Give your customers the option of paying with one click using a credit card, bank transfer, or Mpesa",
     link: "Learn more about online payments",
     route: "/payments"
