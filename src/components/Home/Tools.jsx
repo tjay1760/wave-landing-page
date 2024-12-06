@@ -9,7 +9,7 @@ const Tools = () => {
       Our Tools Work Together so You Work Less.
     </h1>
     <div className="buttons mt-5 flex gap-4">
-      <button className="px-5 py-2 text-gray-900 rounded-3xl border-2  border-gray-900 hover:bg-gray-100 hover:border-none">
+      <button className="px-5 py-2 text-gray-900 rounded-3xl border-2  border-gray-900 hover:bg-gray-100 hover:border-gray-100">
         Invoicing
       </button>
       <button className="px-5 py-2 text-gray-900 rounded-3xl border-2 border-gray-900 hover:bg-gray-100 hover:border-none">
