@@ -1,5 +1,5 @@
 import React from 'react'
-import { FAQs,Footer,FloatingContact,Hero,Testimonials,GetStarted,WhatYouGet,Tools, FloatingDemo,ToolsScroll} from './index'
+import { FAQs,Footer,FloatingContact,Hero,Testimonials,GetStarted,WhatYouGet,Tools, FloatingDemo} from './index'
 const Homepage = () => {
     return (
         <>
@@ -9,7 +9,6 @@ const Homepage = () => {
     <FloatingDemo/>
     <WhatYouGet/>
     <Tools/>
-    <ToolsScroll/>
     <Testimonials/>
     <GetStarted/>
     <FAQs/>
