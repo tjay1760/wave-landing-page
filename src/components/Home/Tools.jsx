@@ -12,13 +12,14 @@ const toolsData = [
     header: "Stop chasing clients for money",
     desc: "Reduce unpaid invoices, keep tabs on your income, and get paid faster.",
     link: "Learn more about our invoicing feature",
+    route:"/invoicing"
   },
   {
     img: PaymentImg,
     header: "Get paid faster",
     desc: "Convenience is everything. Give your customers the option of paying with one click using a credit card, bank transfer, or Mpesa",
     link: "Learn more about online payments",
-    route: "payments"
+    route: "/payments"
   },
   {
     img: AccountingImg,
