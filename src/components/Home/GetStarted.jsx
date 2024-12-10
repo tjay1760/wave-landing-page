@@ -33,7 +33,7 @@ const GetStarted = () => {
       </div>
       <div className="details-holder grid grid-cols-2 gap-4 w-256 ml-28">
         {details.map((detail, index) => (
-          <div key={index} className="border border-blue-200 justify-center shadow-lg rounded-lg overflow-hidden">
+          <div key={index} className="border border-blue-200 justify-center shadow-lg rounded-lg overflow-hidden hover:scale-105">
             <h1 className="name font-bold text-xl bg-blue-300 px-2"> {detail.occupation}</h1>
             <img className="h-48 w-full rounded-" src={detail.img} />
             <p className="font font-light px-2">{detail.msg}</p>
