@@ -12,7 +12,7 @@ const ourTestimonials = [
 ]
 const Testimonials = () => {
   return (
-    <div className='w-full h-lvh bg-heroBackgroundColor flex flex-col items-center'>
+    <div className='w-full min-h-0 border py-4 bg-heroBackgroundColor flex flex-col items-center'>
       <h1 className='text-3xl w-128 text-center p-10'>Tuli has helped over 2 million small business owners
       in the US and Canada take control of their finances</h1>
       <div className="testimonial-wrapper flex flex-cols gap-6">
