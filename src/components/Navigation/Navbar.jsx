@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router";
 import { IoIosArrowDown,IoIosArrowUp } from "react-icons/io";
-import Logo from '../../assets/Tuli_logo.png'; // Adjust the path as needed
+import Logo from '../../assets/Tuli_logo.png'; 
 
 
 
