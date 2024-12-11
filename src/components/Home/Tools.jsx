@@ -53,12 +53,12 @@ const Tools = () => {
   const [bgColor, setBgColor] = useState("bg-toolsBackgroundColor2");
   return (
     <div className="w-full min-h-0">
-      <div className={`h-72 flex justify-center  ${bgColor}`}>
+      <div className={`md:h-72 flex justify-center  ${bgColor}`}>
         <div className="content-wrapper flex flex-col items-center gap-3">
-          <h1 className="text-5xl w-[38rem] text-center text-blue-950 pt-5">
+          <h1 className="text-5xl md:w-[38rem] text-center text-blue-950 pt-5">
             Our Tools Work Together so You Work Less.
           </h1>
-          <div className="buttons mt-5 flex gap-4">
+          <div className="buttons mt-5 flex flex-col md:flex-row gap-4">
             <button
               onClick={() => {
                 setData(toolsData[0]);
