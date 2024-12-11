@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <div className="w-full">
-        <Navbar />
+        <Navbar/>
       </div>
       <Routes>
         <Route path ="/" element = {<Homepage/>}/>

@@ -7,11 +7,11 @@ import { AiOutlineTeam } from "react-icons/ai";
 
 const WhatYoGet = () => {
   return (
-    <div className="w-full h-128 bg-wygBackgroundColor">
-      <div className="text-gray-50 pt-80 flex flex-col items-center justify-center gap-9">
+    <div className="w-full py-2 min-h-0 md:h-128 bg-wygBackgroundColor">
+      <div className="text-gray-50 min-h-0 md:pt-80 flex flex-col md:items-center md:justify-center gap-2 md:gap-9">
       <h1 className="text-3xl font-bold">One less thing to worry about</h1>
       <p className="text-xl">Your Wave account gets you access to all this and more:</p>
-      <div className="descriptions grid grid-cols-2 gap-4">
+      <div className="descriptions flex flex-wrap md:grid md:grid-cols-2 md:gap-4">
         <div className="flex w-96"><FaHeartCircleCheck className="text-4xl"/><span className="px-4">A user-friendly dashboard built for you, not your accountant.</span></div>
         <div className="flex w-96"><FaFolderOpen className="text-4xl"/><span className="px-4">Peace of mind that you are always organized ahead of tax season.</span></div>
         <div className="flex w-96"><RiPlantFill className="text-4xl"/><span className="px-4">A complete picture of your business health, wherever you are.</span></div>

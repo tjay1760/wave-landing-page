@@ -12,7 +12,7 @@ const Hero = () => {
     setEmail(e.target.value)
   }
   return (
-    <div className="h-[48rem] w-full bg-heroBackgroundColor relative top-24 flex align-top gap-40">
+    <div className="h-[48rem] w-full bg-heroBackgroundColor relative md:top-24 flex align-top gap-40">
       <div className="text-black">
         <div className="ratings flex items-center gap-4 ml-8 pt-10">
           <div className="flex">
@@ -45,7 +45,7 @@ const Hero = () => {
           <input value ={email} onChange={handleChange} className="mt-2 rounded-xl h-14 border border-blue-300 p-2" placeholder="Enter your email"></input>
         </form>
       </div>
-      <img className="h-[34rem]" alt="harmony image" src= {HeroImg}/>
+      <img className=" hidden md:h-[34rem]" alt="harmony image" src= {HeroImg}/>
     </div>
   );
 };
