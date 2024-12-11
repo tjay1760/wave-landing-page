@@ -7,7 +7,7 @@ const FloatingContact = () => {
 <div>
 <h1 className='text-2xl font-bold'>Do what you love. Leave the rest to us.</h1>
 <Link to ={"/contact"}>
-<button className=' border border-blue-200 px-4 py-3 rounded-3xl mt-2 bg-blue-500 hover:bg-blue-400'>Let's do this</button>
+<button className=' border border-blue-200 px-4 py-3 rounded-3xl mt-2 bg-blue-500 hover:bg-blue-400'>Let&apos;s do this</button>
 </Link>
 
 </div>
