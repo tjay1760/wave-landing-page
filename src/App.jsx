@@ -8,6 +8,7 @@ import Blog from "./components/blog/Blog";
 import Pricing from "./components/pricing/Pricing.jsx";
 import {Accounting,Advisors,Estimates,Invoicing,MobileReceipts,Payments,Payroll} from "./components/features/index.js"
 import {AboutUs,Affiliate,Careers,HowSupportWorks} from "./components/resources/index.js"
+import Contact from "./components/contact/Contact.jsx";
 function App() {
   return (
     <>
@@ -16,6 +17,7 @@ function App() {
       </div>
       <Routes>
         <Route path ="/" element = {<Homepage/>}/>
+        <Route path = "/" element = {<Contact/>}/>
         <Route path ="/pricing" element = {<Pricing/>}/>
         <Route path ="/blog" element = {<Blog/>}/>
         <Route path ="/accounting" element = {<Accounting/>}/>

@@ -32,16 +32,18 @@ const GetStarted = () => {
       <div className="sign-me font-bold text-2xl p-6 text-blue-950">
         Built for business Owners Just like you
       </div>
-      <div
-        className="details-holder grid grid-cols-2 gap-10 w-256 ml-28"
-      >
+      <div className="details-holder grid grid-cols-2 gap-10 w-256 ml-28">
         {details.map((detail, index) => (
           <motion.div
-          whileHover={{ scale: 1.1 }}
-        whileTap={{ scale: 0.95 }}
-        onHoverStart={() => console.log("hover started!")}
-        initial = {{opacity:0}}
-        whileInView={{opacity:1,scale:1.05,transition:{duration:3}}}
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.95 }}
+            onHoverStart={() => console.log("hover started!")}
+            initial={{ opacity: 0 }}
+            whileInView={{
+              opacity: 1,
+              scale: 1.05,
+              transition: { duration: 3 },
+            }}
             key={index}
             className="border border-blue-200 justify-center shadow-lg rounded-lg overflow-hidden"
           >
