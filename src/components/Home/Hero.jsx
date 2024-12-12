@@ -34,13 +34,13 @@ const Hero = () => {
             <span className="w-72">Manage Your</span>{" "}
             <span className="">Money Like a boss.</span>
           </h1>
-          <p className="min-h-0 text-xl pl-8 w-full md:w-[32rem]">
+          <p className="min-h-0 text-xl pl-8 w-11/12 md:w-[32rem]">
             Create beautiful invoices, accept online payments, and make
             accounting easy—all in one place—with Tuli suite of money management
             tools.
           </p>
         </div>
-        <form className="flex flex-col w-full md:w-[30rem] ml-8 pt-8">
+        <form className="flex flex-col w-11/12 md:w-[30rem] md:ml-8 pt-8">
           <input value ={name} onChange={handleChange} className="mb-2 rounded-xl h-14 border border-blue-300 p-2" placeholder="Enter your name"></input>
           <input value ={email} onChange={handleChange} className="mt-2 rounded-xl h-14 border border-blue-300 p-2" placeholder="Enter your email"></input>
         </form>

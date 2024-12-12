@@ -8,8 +8,8 @@ import { FaInstagramSquare } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="w-full h-lvh bg-wygBackgroundColor text-white flex flex-col gap-4 items-center">
-      <div className="links  flex gap-10 justify-center  pt-56 py-4 font-light">
+    <div className="w-full h-lvh bg-wygBackgroundColor text-white flex flex-col md:gap-4 items-center">
+      <div className="links  flex md:gap-10 justify-center  md:pt-56 py-4 font-light">
         <div className="socials">
           <div className="logo">
             <Link to={"/"}><img src={Logo} className="h-12 bg-white m-4"/></Link>
@@ -49,10 +49,10 @@ const Footer = () => {
           How it Works
         </div>
       </div>
-      <div className="bar border w-11/12 bg-white"></div>
-      <div className="legal flex flex-col gap-2 font-thin">
+      <div className="bar border w-full md:w-11/12 bg-white"></div>
+      <div className="legal flex flex-col gap-2 font-thin text-sm">
         <p>Copyright</p>
-        <div className="legal-links flex gap-3">
+        <div className="legal-links flex flex-col md:gap-3">
         <Link to={"/invoicing"}>Privacy Policy </Link>
         <Link to={"/invoicing"}>Legal Disclosures</Link>
         <Link to={"/invoicing"}>Security</Link>
