@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router'
 const FloatingContact = () => {
   return (
-<div className="border border-blue-500 w-2/3 h-16 p-28 absolute top-200rem bg-white left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-row justify-between">
+<div className="md:border border-blue-500 w-full md:w-2/3 md:h-16 p-2 md:p-28 md:absolute md:top-200rem bg-white md:left-1/2 md:transform md:-translate-x-1/2 md:-translate-y-1/2 flex flex-col md:flex-row justify-between">
 <div className='text-8xl'>🤝</div>
 <div>
 <h1 className='text-2xl font-bold'>Do what you love. Leave the rest to us.</h1>
