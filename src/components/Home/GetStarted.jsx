@@ -32,12 +32,11 @@ const GetStarted = () => {
       <div className="sign-me font-bold text-2xl p-6 text-blue-950">
         Built for business Owners Just like you
       </div>
-      <div className="details-holder grid grid-cols-2 gap-10 w-256 ml-28">
+      <div className="details-holder grid md:grid-cols-2 gap-10 md:w-256 md:ml-28">
         {details.map((detail, index) => (
           <motion.div
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.95 }}
-            onHoverStart={() => console.log("hover started!")}
             initial={{ opacity: 0 }}
             whileInView={{
               opacity: 1,
@@ -51,7 +50,7 @@ const GetStarted = () => {
               {" "}
               {detail.occupation}
             </h1>
-            <img className="h-48 w-full rounded-" src={detail.img} />
+            <img className="h-48 w-full rounded" src={detail.img} />
             <p className="font font-light px-2">{detail.msg}</p>
           </motion.div>
         ))}
