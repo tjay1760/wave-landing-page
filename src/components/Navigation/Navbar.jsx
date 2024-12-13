@@ -16,7 +16,7 @@ const Navbar = () => {
       <img src={Logo} alt="Logo" className="h-20"/>
       </Link>
       <button
-        className="ml-auto text-blue-900 text-3xl lg:hidden"
+        className="text-blue-900 text-3xl md:hidden"
         onClick={() => setIsMenuOpen(!isMenuOpen)}
         aria-label="Toggle menu"
       >
