@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router";
-import { IoIosArrowDown,IoIosArrowUp } from "react-icons/io";
+import { IoIosArrowDown,IoIosArrowUp, IoIosMenu, IoIosClose } from "react-icons/io";
 import Logo from '../../assets/Tuli_logo.png'; 
 
 
@@ -8,13 +8,21 @@ import Logo from '../../assets/Tuli_logo.png';
 const Navbar = () => {
   const [showFeatures, setShowFeatures] = useState(false);
   const [showResources, setShowResources] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
     <div className="bg-heroBackgroundColor h-24 w-full flex items-center gap-[400px] px-8 fixed z-10">
       <Link to="/">
       <img src={Logo} alt="Logo" className="h-20"/>
       </Link>
-      <nav className="flex gap-6">
+      <button
+        className="text-blue-900 text-3xl md:hidden"
+        onClick={() => setIsMenuOpen(!isMenuOpen)}
+        aria-label="Toggle menu"
+      >
+        {isMenuOpen ? <IoIosClose /> : <IoIosMenu />}
+      </button>
+      <nav className="hidden md:flex gap-6 border border-red-900">
         {/* Features Dropdown */}
         <div
           className="relative group"

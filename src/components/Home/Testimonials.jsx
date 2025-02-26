@@ -13,9 +13,9 @@ const ourTestimonials = [
 const Testimonials = () => {
   return (
     <div className='w-full min-h-0 border py-4 bg-heroBackgroundColor flex flex-col items-center'>
-      <h1 className='text-3xl w-128 text-center p-10'>Tuli has helped over 2 million small business owners
+      <h1 className='text-3xl w-full md:w-128 text-center p-10'>Tuli has helped over 2 million small business owners
       in the US and Canada take control of their finances</h1>
-      <div className="testimonial-wrapper flex flex-cols gap-6">
+      <div className="testimonial-wrapper flex flex-col md:flex-row gap-6">
         {ourTestimonials.map((testimonial,index)=> <div key ={index}
         className="testimonial w-80 h-96 bg-blue-200">
           <div className="details-wrapper flex gap-6 p-4">
